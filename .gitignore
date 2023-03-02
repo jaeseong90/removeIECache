@@ -1,0 +1,7 @@
+/.vs/
+/packages/
+**/.vs/
+**/obj/
+**/bin/
+/Programs/**/*.sln
+/.svn/
