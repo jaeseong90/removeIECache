@@ -1,18 +1,11 @@
-# 세정POS KCP연동 에이전트
+# removeIECache Program
+스레드가 돌면서 30초마다 인터넷 임시 폴더중 IE 디렉토리의 jpg와 mts 파일을 삭제합니다. dll, 태스크를 사용하면 자꾸화면에 뜨는게 불편해서 만들게 되었습니다.
 
-### 셋팅
-- .netframework 4.7.2
+### 개발 
+visual studio
+.netframework 4.7.2, c#, winform 
 
 ##### ThreadSuspend 
  - Thread.Suspend has been deprecated.  Please use other classes in System.Threading, such as Monitor, Mutex, Event, and Semaphore, 
 to synchronize Threads or protect resources.  http://go.microsoft.com/fwlink/?linkid=14202'	
 
-##### 배포
- - 파일경로 사용
- - 게시버전 서버버전확인 필수
- - 설치폴더 http://pos.sejung.co.kr/download/kcpmodule/
- - 서명 sejung pfx 확인
- - 타임스탬프 서버 http://timestamp.digicert.com/
- - ClickOnec보안설정
- - 32비트 기본사용
- - 플랫폼 대상 Any CPU
